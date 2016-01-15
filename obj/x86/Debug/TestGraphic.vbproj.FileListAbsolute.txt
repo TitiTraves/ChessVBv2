@@ -1,0 +1,10 @@
+C:\Users\Thibault\Desktop\Chess\bin\Debug\TestGraphic.exe
+C:\Users\Thibault\Desktop\Chess\bin\Debug\TestGraphic.pdb
+C:\Users\Thibault\Desktop\Chess\bin\Debug\TestGraphic.xml
+C:\Users\Thibault\Desktop\Chess\obj\x86\Debug\TestGraphic.vbprojResolveAssemblyReference.cache
+C:\Users\Thibault\Desktop\Chess\obj\x86\Debug\TestGraphic.Form1.resources
+C:\Users\Thibault\Desktop\Chess\obj\x86\Debug\TestGraphic.Resources.resources
+C:\Users\Thibault\Desktop\Chess\obj\x86\Debug\TestGraphic.vbproj.GenerateResource.Cache
+C:\Users\Thibault\Desktop\Chess\obj\x86\Debug\TestGraphic.exe
+C:\Users\Thibault\Desktop\Chess\obj\x86\Debug\TestGraphic.xml
+C:\Users\Thibault\Desktop\Chess\obj\x86\Debug\TestGraphic.pdb

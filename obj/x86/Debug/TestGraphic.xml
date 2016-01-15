@@ -1,0 +1,220 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestGraphic
+</name>
+</assembly>
+<members>
+<member name="T:TestGraphic.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bb">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bcote">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bHaut">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bk">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bleu">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bn">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.board90">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.bq">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.br">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.pg">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.rouge">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.vert">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.wb">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.wk">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.wn">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.wp">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.wq">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:TestGraphic.My.Resources.Resources.wr">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.GetFEN">
+ <summary>
+ retourne le FEN correspondant à l'état actuel
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.SetFEN(System.String)">
+ <summary>
+ Place la position à partir du FEN envoyé
+ </summary>
+ <param name="strFEN">notation FEN complète</param>
+ <returns>0 si aucune erreur</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.MakeMove(System.String)">
+ <summary>
+ Effectue un mouvement de pièce 
+ sans vérifier la validité du mouvement
+ </summary>
+ <param name="FromTo">Chaine de type e2e4</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.GetTakes(System.String)">
+ <summary>
+ Renvoie la liste des prises possibles pour la case
+ séparées par des espaces
+ </summary>
+ <param name="strSquare">le nom d'une case ex : e4</param>
+ <returns>liste des cases prenables</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.GetMoves(System.String)">
+ <summary>
+ Retourne tous les deplacements possibles pour la case
+ séparées par des espaces
+ </summary>
+ <param name="strSquare">le nom d'une case ex : e4</param>
+ <returns>liste des cases atteingnables</returns>
+ <remarks>ATTENTION PAS DE VERIFICATION SUR LE JOUEUR AU TRAIT</remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.WhoCanTake(System.String)">
+ <summary>
+ retourne la liste des pieces pouvant prendre cette piece
+ </summary>
+ <param name="strSquare"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.WhereIs(System.Char)">
+ <summary>
+ Cherche les cases contenant un type de piece
+ </summary>
+ <param name="aPiece">un caractère FEN d'une pièce (en)</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.IsValidMove(System.String,System.Boolean)">
+ <summary>
+ vérifie la validité d'un coup 
+ </summary>
+ <param name="FromTo">un mouvement du type e2e4</param>
+ <param name="CheckCheck">Doit on vérifier les échecs</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.PGNmove(System.String)">
+ <summary>
+ retourne le coup en notation algébrique
+ </summary>
+ <param name="FromTo">un mouvement du type e2e4</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.MovesPlayed">
+ <summary>
+ retourne dans quel coup on se trouve
+ commence à 1 avant que les blancs ne jouent
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TestGraphic.ObjFenMoves.WhiteToPlay">
+ <summary>
+ retourne TRUE si c'est au blanc de jouer
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:TestGraphic.ObjFenMoves.LocalPiece">
+ <summary>
+ initiales des pièces
+ TCFDQ (fr) ou RNBQK (en)
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
